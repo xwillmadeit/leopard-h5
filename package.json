@@ -1,0 +1,41 @@
+{
+  "name": "leopard",
+  "version": "1.0.0",
+  "description": "leopard-h5",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build:dev": "rm -rf build && cross-env NODE_ENV=dev webpack -p",
+    "build": "rm -rf build && cross-env NODE_ENV=production webpack -p",
+    "start": "serve -s build"
+  },
+  "keywords": [
+    "leopard",
+    "手机端",
+    "h5"
+  ],
+  "author": "xiesenzhengy",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "cross-env": "^5.0.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.5",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "last 3 versions",
+    "> 1%"
+  ]
+}
