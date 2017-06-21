@@ -6,7 +6,8 @@
     "dev": "webpack-dev-server",
     "build:dev": "rm -rf build && cross-env NODE_ENV=dev webpack -p",
     "build": "rm -rf build && cross-env NODE_ENV=production webpack -p",
-    "start": "serve -s build"
+    "start": "serve -s build",
+    "deploy": "surge /Users/xwill/personal/leopard-h5/build xwillmadeit.surge.sh"
   },
   "keywords": [
     "leopard",
