@@ -1,0 +1,61 @@
+@import "theme";
+@import "helper";
+@import "common";
+
+.page7 {
+  padding-top: 1.64rem;
+
+  &-company-title {
+    width: 5.013333rem;
+    height: 1.066667rem;
+    margin-left: 2.493333rem;
+  }
+
+  &-golden-en {
+    width: 2.4rem;
+    height: 0.64rem;
+    margin-top: 2.013333rem;
+    @include center(true, false);
+    position: relative;
+  }
+
+  &-slogan-big {
+    width: 9.213333rem;
+    height: 2.413333rem;
+    margin-top: -0.266667rem;
+    @include center(true, false);
+    position: relative;
+  }
+
+  &-golden-info {
+    width: 8.493333rem;
+    height: 0.506667rem;
+    margin-top: 0.32rem;
+    @include center(true, false);
+    position: relative;
+  }
+
+  &-date-info {
+    width: 5.226667rem;
+    height: 1.52rem;
+    margin-top: 1.386667rem;
+    @include center(true, false);
+    position: relative;
+  }
+
+  &-qrcode {
+    width: 2.773333rem;
+    height: 2.773333rem;
+    margin-top: 1.666667rem;
+    @include center(true, false);
+    position: relative;
+  }
+
+  &-footer {
+    width: 9.066667rem;
+    height: 1.0rem;
+    margin-top: 0.626667rem;
+    @include center(true, false);
+    position: relative;
+  }
+}

@@ -1,0 +1,64 @@
+@import "theme";
+@import "helper";
+@import "common";
+
+.leopard-eye {
+  padding-top: 3.986667rem;
+
+  &-bg {
+    position: absolute;
+    width: 100%;
+    height: 16.16rem;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+  }
+
+  &-en, &-title, &-golden, &-text, &-circle, &-button {
+    position: relative;
+    z-index: 1001;
+  }
+
+  &-en {
+    width: 3.28rem;
+    height: 1.0rem;
+    margin-left: 6.106667rem;
+  }
+
+  &-title {
+    width: 2.493333rem;
+    height: 1.586667rem;
+    margin-top: 0.6rem;
+    margin-right: 0.786667rem;
+  }
+
+  &-golden {
+    width: 3.253333rem;
+    height: 1.453333rem;
+    margin-top: 0.88rem;
+    margin-right: 0.706667rem;
+  }
+
+  &-text {
+    width: 7.04rem;
+    height: 3.04rem;
+    margin-top: 2.506667rem;
+    @include center(true, false);
+    position: relative;
+  }
+
+  &-circle {
+  }
+
+  &-button {
+    @include center(true, false);
+    position: relative;
+    width: 3.226667rem;
+    margin-top: 1.213333rem;
+
+    &-prev, &-next {
+      width: 0.906667rem;
+      height: 0.906667rem;
+    }
+  }
+}

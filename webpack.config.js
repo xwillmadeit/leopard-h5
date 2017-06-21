@@ -7,7 +7,15 @@ const __DEV__ = process.env.NODE_ENV !== 'production'
 const faviconPath = './src/images/favicon.ico'
 
 module.exports = {
-  entry: './src/js/main.js',
+  entry: {
+    index: './src/js/first.js',
+    last: './src/js/last.js',
+    'leopard-choose': './src/js/leopard-choose.js',
+    'leopard-body': './src/js/leopard-body.js',
+    'leopard-nose': './src/js/leopard-nose.js',
+    'leopard-claw': './src/js/leopard-claw.js',
+    'leopard-eye': './src/js/leopard-eye.js'
+  },
   output: {
     path: resolve(__dirname, 'build'),
     filename: __DEV__ ? 'js/[name].chunk.js' : 'js/[name].[chunkhash:6].js',
@@ -40,8 +48,45 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('css/[name].[contenthash:6].css'),
     new HtmlWebpackPlugin({
+      chunks: ['index'],
       template: './index.html',
       filename: 'index.html',
+      favicon: faviconPath
+    }),
+    new HtmlWebpackPlugin({
+      chunks: ['leopard-choose'],
+      template: './leopard-choose.html',
+      filename: 'leopard-choose.html',
+      favicon: faviconPath
+    }),
+    new HtmlWebpackPlugin({
+      chunks: ['leopard-body'],
+      template: './leopard-body.html',
+      filename: 'leopard-body.html',
+      favicon: faviconPath
+    }),
+    new HtmlWebpackPlugin({
+      chunks: ['leopard-nose'],
+      template: './leopard-nose.html',
+      filename: 'leopard-nose.html',
+      favicon: faviconPath
+    }),
+    new HtmlWebpackPlugin({
+      chunks: ['leopard-eye'],
+      template: './leopard-eye.html',
+      filename: 'leopard-eye.html',
+      favicon: faviconPath
+    }),
+    new HtmlWebpackPlugin({
+      chunks: ['leopard-claw'],
+      template: './leopard-claw.html',
+      filename: 'leopard-claw.html',
+      favicon: faviconPath
+    }),
+    new HtmlWebpackPlugin({
+      chunks: ['last'],
+      template: './last.html',
+      filename: 'last.html',
       favicon: faviconPath
     })
   ],

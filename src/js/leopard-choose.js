@@ -1,4 +1,4 @@
 import flexible from './flexible'
-import '../scss/style.scss'
+import '../scss/leopard-choose.scss'
 
 flexible(window, window['lib'] || (window['lib'] = {}))

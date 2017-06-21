@@ -1,0 +1,20 @@
+@import "theme";
+@import "helper";
+@import "common";
+
+.leopard-choose {
+  padding-top: 1.466667rem;
+
+  &-title {
+    width: 1.613333rem;
+    height: 7.6rem;
+    margin-right: 1.266667rem;
+  }
+
+  &-golden {
+    width: 1.653333rem;
+    height: 1.653333rem;
+    margin-top: 5.4rem;
+    margin-right: 1.306667rem;
+  }
+}
