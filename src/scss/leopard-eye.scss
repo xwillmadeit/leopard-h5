@@ -23,6 +23,7 @@
     width: 3.28rem;
     height: 1.0rem;
     margin-left: 6.106667rem;
+    animation-delay: 4 * $delay-sec;
   }
 
   &-line {
@@ -31,6 +32,7 @@
     height: 1.893333rem;
     top: 5.453333rem;
     right: 0.613333rem;
+    animation-delay: 2 * $delay-sec;
   }
 
   &-title {
@@ -38,6 +40,7 @@
     height: 1.586667rem;
     margin-top: 0.6rem;
     margin-right: 0.786667rem;
+    animation-delay: 3 * $delay-sec;
   }
 
   &-golden {
@@ -45,12 +48,14 @@
     height: 1.453333rem;
     margin-top: 0.88rem;
     margin-right: 0.706667rem;
+    animation-delay: 5 * $delay-sec;
   }
 
   &-text {
     width: 7.04rem;
     height: 3.04rem;
-    margin: 2.506667rem auto 0;
+    margin: 1.973333rem auto 0;
+    animation-delay: 6 * $delay-sec;
   }
 
   &-circle {
@@ -59,13 +64,13 @@
     position: absolute;
     left: 0.653333rem;
     top: 2.813333rem;
+    animation-delay: 1 * $delay-sec;
   }
 
   &-button {
     @include center(true, false);
-    position: relative;
     width: 3.226667rem;
-    margin-top: 1.213333rem;
+    bottom: 0.666667rem;
 
     &-prev, &-next {
       width: 0.906667rem;

@@ -8,54 +8,49 @@
   &-company-title {
     width: 5.013333rem;
     height: 1.066667rem;
-    margin-left: 2.493333rem;
+    margin: 0 auto;
+    animation-delay: 1 * $delay-sec;
   }
 
   &-golden-en {
     width: 2.4rem;
     height: 0.64rem;
-    margin-top: 2.013333rem;
-    @include center(true, false);
-    position: relative;
+    margin: 1.613333rem auto 0;
+    animation-delay: 2 * $delay-sec;
   }
 
   &-slogan-big {
     width: 9.213333rem;
     height: 2.413333rem;
-    margin-top: -0.266667rem;
-    @include center(true, false);
-    position: relative;
+    margin: -0.266667rem auto 0;
+    animation-delay: 3 * $delay-sec;
   }
 
   &-golden-info {
     width: 8.493333rem;
     height: 0.506667rem;
-    margin-top: 0.32rem;
-    @include center(true, false);
-    position: relative;
+    margin: 0.32rem auto 0;
+    animation-delay: 4 * $delay-sec;
   }
 
   &-date-info {
     width: 5.226667rem;
     height: 1.52rem;
-    margin-top: 1.386667rem;
-    @include center(true, false);
-    position: relative;
+    margin: 1.12rem auto 0;
+    animation-delay: 5 * $delay-sec;
   }
 
   &-qrcode {
     width: 2.773333rem;
     height: 2.773333rem;
-    margin-top: 1.666667rem;
-    @include center(true, false);
-    position: relative;
+    margin: 1.133333rem auto 0;
+    animation-delay: 6 * $delay-sec;
   }
 
   &-footer {
     width: 9.066667rem;
     height: 1.0rem;
-    margin-top: 0.626667rem;
-    @include center(true, false);
-    position: relative;
+    margin: 0.626667rem auto 0;
+    animation-delay: 7 * $delay-sec;
   }
 }
