@@ -23,6 +23,14 @@
     margin-left: 0.893333rem;
   }
 
+  &-line {
+    position: absolute;
+    width: 3.773333rem;
+    height: 1.333333rem;
+    top: 5.866667rem;
+    left: 0.88rem;
+  }
+
   &-title {
     width: 2.48rem;
     height: 1.573333rem;
@@ -38,14 +46,17 @@
   }
 
   &-text {
-    margin-top: 1.386667rem;
     width: 7.2rem;
     height: 2.386667rem;
-    @include center(true, false);
-    position: relative;
+    margin: 1.386667rem auto 0;
   }
 
   &-circle {
+    width: 4.213333rem;
+    height: 3.906667rem;
+    position: absolute;
+    top: 4.066667rem;
+    right: 2.573333rem;
   }
 
   &-button {

@@ -14,15 +14,23 @@
     z-index: 1000;
   }
 
-  &-en, &-title, &-golden, &-text, &-circle, &-button {
+  &-en, &-title, &-golden, &-text, &-circle, &-button, &-line {
     position: relative;
-    z-index: 1001;
+    z-index: 2000;
   }
 
   &-en {
     width: 3.28rem;
     height: 1.0rem;
     margin-left: 6.106667rem;
+  }
+
+  &-line {
+    position: absolute;
+    width: 4.666667rem;
+    height: 1.893333rem;
+    top: 5.453333rem;
+    right: 0.613333rem;
   }
 
   &-title {
@@ -42,12 +50,15 @@
   &-text {
     width: 7.04rem;
     height: 3.04rem;
-    margin-top: 2.506667rem;
-    @include center(true, false);
-    position: relative;
+    margin: 2.506667rem auto 0;
   }
 
   &-circle {
+    width: 6.04rem;
+    height: 5.6rem;
+    position: absolute;
+    left: 0.653333rem;
+    top: 2.813333rem;
   }
 
   &-button {

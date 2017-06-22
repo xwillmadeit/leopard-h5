@@ -9,18 +9,28 @@
     position: absolute;
     width: 100%;
     height: 16.16rem;
-    right: 0;
     top: 0;
+    right: 0;
+    z-index: 1000;
   }
 
-  &-en, &-title, &-golden, &-circle {
+  &-en, &-title, &-golden, &-circle, &-line {
     position: relative;
+    z-index: 2000;
   }
 
   &-en {
     width: 3.28rem;
     height: 1.0rem;
     margin-left: 0.586667rem;
+  }
+
+  &-line {
+    position: absolute;
+    width: 5.053333rem;
+    height: 4.506667rem;
+    left: 0.48rem;
+    top: 5.92rem;
   }
 
   &-title {
@@ -40,12 +50,15 @@
   &-text {
     width: 7.493333rem;
     height: 3.146667rem;
-    margin-top: 2.133333rem;
-    @include center(true, false);
-    position: relative;
+    margin: 2.133333rem auto 0;
   }
 
   &-circle {
+    position: absolute;
+    width: 5.133333rem;
+    height: 4.746667rem;
+    top: 8.626667rem;
+    right: 1.426667rem;
   }
 
   &-button {
