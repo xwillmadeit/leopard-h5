@@ -17,66 +17,66 @@
   }
 
   &-en {
-    width: 2.773333rem;
-    height: 5.52rem;
-    margin-left: 0.826667rem;
+    width: px2rem(208px);
+    height: px2rem(414px);
+    margin-left: px2rem(62px);
     position: relative;
     animation-delay: 4 * $delay-sec;
   }
 
   &-line {
     position: absolute;
-    width: 5.32rem;
-    height: 9.226667rem;
-    top: 2.8rem;
-    right: 0.68rem;
+    width: px2rem(399px);
+    height: px2rem(692px);
+    top: px2rem(210px);
+    right: px2rem(51px);
     animation-delay: 2 * $delay-sec;
   }
 
   &-title {
-    width: 2.48rem;
-    height: 1.573333rem;
+    width: px2rem(186px);
+    height: px2rem(118px);
     position: absolute;
-    top: 2.293333rem;
-    right: 0.973333rem;
+    top: px2rem(171px);
+    right: px2rem(77px);
     animation-delay: 3 * $delay-sec;
   }
 
   &-golden {
-    width: 3.44rem;
-    height: 2.08rem;
+    width: px2rem(258px);
+    height: px2rem(156px);
     position: relative;
-    left: 5.706667rem;
-    top: -0.666667rem;
+    right: px2rem(64px);
+    top: px2rem(-50px);
     animation-delay: 5 * $delay-sec;
   }
 
   &-text {
-    width: 4.053333rem;
-    height: 5.493333rem;
-    margin-top: 0.866667rem;
+    width: px2rem(304px);
+    height: px2rem(412px);
+    margin-top: px2rem(75px); // 115
+    margin-right: px2rem(36px);
     position: relative;
-    left: 5.48rem;
     animation-delay: 6 * $delay-sec;
   }
 
   &-circle {
-    width: 5.133333rem;
-    height: 4.746667rem;
+    width: px2rem(385px);
+    height: px2rem(356px);
     position: absolute;
-    left: 0.28rem;
-    bottom: 2.413333rem;
+    left: px2rem(21px);
+    bottom: px2rem(181px);
     animation-delay: 1 * $delay-sec;
   }
 
   &-button {
     @include center(true, false);
-    width: 3.226667rem;
-    bottom: 0.666667rem;
+    width: px2rem(242px);
+    bottom: px2rem(40px);
 
     &-prev, &-next {
-      width: 0.906667rem;
-      height: 0.906667rem;
+      width: px2rem(68px);
+      width: px2rem(68px);
     }
   }
 }
