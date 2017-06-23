@@ -67,6 +67,7 @@
     left: px2rem(21px);
     bottom: px2rem(181px);
     animation-delay: 1 * $delay-sec;
+    animation: shine 2s ease infinite;
   }
 
   &-button {

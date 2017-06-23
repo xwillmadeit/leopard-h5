@@ -16,3 +16,18 @@ $delay-sec: .8s;
   }
   @return ($px / $base-font-size) * 1rem;
 }
+
+@keyframes shine {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
