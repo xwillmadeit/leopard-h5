@@ -3,12 +3,12 @@
 @import "common";
 
 .leopard-choose {
-  padding-top: 1.466667rem;
+  padding-top: px2rem(110px);
 
   &-bg {
     position: absolute;
     width: 100%;
-    height: 17.64rem;
+    height: 100%;
     bottom: 0;
     left: 0;
     z-index: 1000;
@@ -18,13 +18,13 @@
         box-shadow: 0 0 0 0 rgba(89, 173, 211, .6);
       }
       100% {
-        box-shadow: 0 0 0 1.066667rem rgba(89, 173, 211, .3);
+        box-shadow: 0 0 0 px2rem(80px) rgba(89, 173, 211, .3);
       }
     }
 
     .circle-eye, .circle-nose, .circle-body, .circle-claw {
-      width: 0.253333rem;
-      height: 0.253333rem;
+      width: px2rem(19px);
+      height: px2rem(19px);
       background-color: rgba(89, 173, 211, .8);
       position: absolute;
       border-radius: 50%;
@@ -33,32 +33,23 @@
     }
 
     .circle-eye {
-      bottom: 10.653333rem;
-      left: 3.213333rem;
+      bottom: px2rem(799px);
+      left: px2rem(241px);
     }
 
     .circle-nose {
-      left: 4.373333rem;
-      bottom: 9.44rem;
+      left: px2rem(328px);
+      bottom: px2rem(708px);
     }
 
     .circle-body {
-      left: 1.386667rem;
-      bottom: 7.613333rem;
+      left: px2rem(104px);
+      bottom: px2rem(571px);
     }
 
     .circle-claw {
-      left: 1.973333rem;
-      bottom: 1.186667rem;
-    }
-
-    &-light {
-      position: absolute;
-      width: 7.28rem;
-      height: 6.88rem;
-      top: 0;
-      right: 0;
-      z-index: 2000;
+      left: px2rem(148px);
+      bottom: px2rem(89px);
     }
   }
 
@@ -68,15 +59,15 @@
   }
 
   &-title {
-    width: 1.613333rem;
-    height: 7.6rem;
-    margin-right: 1.266667rem;
+    width: px2rem(121px);
+    height: px2rem(570px);
+    margin-right: px2rem(95px);
   }
 
   &-golden {
-    width: 1.653333rem;
-    height: 1.653333rem;
-    margin-top: 3.626667rem;
-    margin-right: 1.306667rem;
+    width: px2rem(124px);
+    height: px2rem(124px);
+    margin-top: px2rem(272px); // 405
+    margin-right: px2rem(98px);
   }
 }

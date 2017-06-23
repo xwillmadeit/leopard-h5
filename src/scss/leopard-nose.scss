@@ -3,7 +3,7 @@
 @import "common";
 
 .leopard-nose {
-  padding-top: 4.093333rem;
+  padding-top: 3.16rem;
 
   &-bg {
     position: absolute;
@@ -28,7 +28,7 @@
     position: absolute;
     width: 3.773333rem;
     height: 1.333333rem;
-    top: 5.866667rem;
+    top: 4.773333rem;
     left: 0.88rem;
     animation-delay: 2 * $delay-sec;
   }
@@ -36,7 +36,7 @@
   &-title {
     width: 2.48rem;
     height: 1.573333rem;
-    margin-top: 1.0rem;
+    margin-top: 0.973333rem;
     margin-left: 1.08rem;
     animation-delay: 3 * $delay-sec;
   }
@@ -52,7 +52,7 @@
   &-text {
     width: 7.2rem;
     height: 2.386667rem;
-    margin: 1.386667rem auto 0;
+    margin: 0.986667rem auto 0;
     animation-delay: 6 * $delay-sec;
   }
 
@@ -60,20 +60,20 @@
     width: 4.213333rem;
     height: 3.906667rem;
     position: absolute;
-    top: 4.066667rem;
+    top: 3.133333rem;
     right: 2.573333rem;
     animation-delay: 1 * $delay-sec;
   }
 
   &-button {
     @include center(true, false);
-    width: 3.226667rem;
-    bottom: 0.666667rem;
+    width: px2rem(242px);
+    bottom: px2rem(40px);
     z-index: 3000;
 
     &-prev, &-next {
-      width: 0.906667rem;
-      height: 0.906667rem;
+      width: px2rem(68px);
+      width: px2rem(68px);
     }
   }
 }
