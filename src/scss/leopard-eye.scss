@@ -3,12 +3,12 @@
 @import "common";
 
 .leopard-eye {
-  padding-top: 3.986667rem;
+  padding-top: px2rem(299px);
 
   &-bg {
     position: absolute;
     width: 100%;
-    height: 16.16rem;
+    height: px2rem(1323px);
     right: 0;
     top: 0;
     z-index: 1000;
@@ -20,61 +20,61 @@
   }
 
   &-en {
-    width: 3.28rem;
-    height: 1.0rem;
-    margin-left: 6.106667rem;
+    width: px2rem(246px);
+    height: px2rem(75px);
+    margin-right: px2rem(46px);
     animation-delay: 4 * $delay-sec;
   }
 
   &-line {
     position: absolute;
-    width: 4.666667rem;
-    height: 1.893333rem;
-    top: 5.453333rem;
-    right: 0.613333rem;
+    width: px2rem(350px);
+    height: px2rem(142px);
+    top: px2rem(409px);
+    right: px2rem(46px);
     animation-delay: 2 * $delay-sec;
   }
 
   &-title {
-    width: 2.493333rem;
-    height: 1.586667rem;
-    margin-top: 0.6rem;
-    margin-right: 0.786667rem;
+    width: px2rem(187px);
+    height: px2rem(119px);
+    margin-top: px2rem(42px);
+    margin-right: px2rem(59px);
     animation-delay: 3 * $delay-sec;
   }
 
   &-golden {
-    width: 3.253333rem;
-    height: 1.453333rem;
-    margin-top: 0.88rem;
-    margin-right: 0.706667rem;
+    width: px2rem(244px);
+    height: px2rem(109px);
+    margin-top: px2rem(66px);
+    margin-right: px2rem(53px);
     animation-delay: 5 * $delay-sec;
   }
 
   &-text {
-    width: 7.04rem;
-    height: 3.04rem;
-    margin: 1.333333rem auto 0;
+    width: px2rem(528px);
+    height: px2rem(228px);
+    margin: px2rem(128px) auto 0; // 188
     animation-delay: 6 * $delay-sec;
   }
 
   &-circle {
-    width: 6.04rem;
-    height: 5.6rem;
+    width: px2rem(453px);
+    height: px2rem(420px);
     position: absolute;
-    left: 0.653333rem;
-    top: 2.813333rem;
+    left: px2rem(49px);
+    top: px2rem(211px);
     animation-delay: 1 * $delay-sec;
   }
 
   &-button {
     @include center(true, false);
-    width: 3.226667rem;
-    bottom: 0.666667rem;
+    width: px2rem(242px);
+    bottom: px2rem(40px);
 
     &-prev, &-next {
-      width: 0.906667rem;
-      height: 0.906667rem;
+      width: px2rem(68px);
+      width: px2rem(68px);
     }
   }
 }
